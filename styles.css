@@ -61,6 +61,7 @@
     max-height: 100%;
     padding: auto;
     top: 1px;
+    border-radius: 20%;
   }
   figcaption {
     color: gray;
