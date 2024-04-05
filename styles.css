@@ -1,0 +1,70 @@
+:root{
+  --text-color1: white;  
+}
+.background {
+  position: fixed;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+}
+body {
+  overflow-x: hidden;
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+}
+.titlebox{
+  overflow: hidden;
+  width: 100vw;
+  height: 25vh;
+  
+}
+#title {
+  text-align: center;
+  font-family: Helvetica, sans-serif;
+  color: orangered;
+  font-weight: bolder;
+  font-size: 50px;
+  text-shadow: 3px 5px 10px;
+}
+.subtitle {
+  text-align: center;
+  font-weight: bold;
+  color: orangered;
+}
+.verse {
+  text-align: center;
+  font-weight: bold;
+  color: orangered;
+}
+#main {
+  position: relative;
+}
+#img-div {
+  margin: 5px 15vw;
+}
+#image {
+  display: block;
+  width: 70vw;
+  height: auto;
+  border-radius: 5%;
+  max-width: 100%;
+}
+figcaption {
+  font-family:Helvetica;
+  text-align: center;
+}
+.head {
+  text-align: center;
+  font-family: Arial;
+  font-weight: bold; 
+  color: red;
+}
+.info {
+  background-color: rgba(240, 255, 255, 0.288);
+  font-family: sans-serif;
+  padding: 20px 10vw;
+}
