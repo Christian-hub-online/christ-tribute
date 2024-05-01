@@ -71,7 +71,7 @@ figcaption {
 }
 .spinner {
   position: fixed;
-  margin-top: 30%;
+  margin-top: 20%;
   margin-left: 45%;
   z-index: 99;
   width: 33.6px;
