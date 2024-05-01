@@ -4,4 +4,4 @@ $(document).ready(
     $('main').removeClass('hidden');
     $('header').removeClass('hidden');
     $('.background').removeClass('hidden');
-}, 2000));
+}, 5000));
