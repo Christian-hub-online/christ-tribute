@@ -1,3 +1,4 @@
+/* John 14:6 “I am the way and the truth and the life. No one comes to the Father except through me.*/
 :root{
   --text-color1: white;  
 }
@@ -54,6 +55,12 @@ body {
   border-radius: 5%;
   max-width: 100%;
 }
+#tribute-info {
+  background-color: rgb(228, 232, 242, 30%);
+  padding: 5px;
+  margin: 15px;
+  border-radius: 20px;
+}
 figcaption {
   font-family:Helvetica;
   text-align: center;
@@ -65,13 +72,12 @@ figcaption {
   color: red;
 }
 .info {
-  background-color: rgba(240, 255, 255, 0.288);
   font-family: sans-serif;
   padding: 20px 10vw;
 }
 .spinner {
   position: fixed;
-  margin-top: 20%;
+  margin-top: 25%;
   margin-left: 45%;
   z-index: 99;
   width: 33.6px;
